@@ -1,11 +1,12 @@
 import streamlit as st
 import pickle
 from backend.auth import *
-import sections.diet as diet
-import sections.exercise as exercise
-import sections.hygiene as hygiene
-import sections.motivation as motivation
-import sections.tips as tips
+from sections import diet
+from sections import exercise
+from sections import hygiene
+from sections import motivation
+from sections import tips
+
 from utils.risk_graph import display_risk_bar
 import os
 
